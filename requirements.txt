@@ -8,3 +8,4 @@ fitz
 sentence-transformers
 frontend
 pypdf
+langchain-text-splitters
