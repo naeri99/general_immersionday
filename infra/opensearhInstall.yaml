@@ -55,7 +55,7 @@ Resources:
     Type: AWS::OpenSearchService::Domain
     Properties:
       DomainName: !Ref DomainName
-      EngineVersion: OpenSearch_2.17
+      EngineVersion: OpenSearch_3.1
       ClusterConfig:
         InstanceType: m5.2xlarge.search
         InstanceCount: 2
