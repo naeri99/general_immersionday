@@ -4,13 +4,13 @@ Parameters:
     Description: "Name of the OpenSearch domain"
     Default: "bank-opensearch-domain"
 
-  BNKuser:
+  BANKuser:
     Type: String
     Description: "Master username for OpenSearch domain"
     MinLength: 1
     Default: "Bankadmin"
     
-  BNKpassword:
+  BANKpassword:
     Type: String
     Description: "Master password for OpenSearch domain"
     MinLength: 8
@@ -79,8 +79,8 @@ Resources:
         Enabled: true
         InternalUserDatabaseEnabled: true
         MasterUserOptions:
-          MasterUserName: !Ref BNKuser
-          MasterUserPassword: !Ref BNKpassword
+          MasterUserName: !Ref BANKuser
+          MasterUserPassword: !Ref BANKpassword
       AccessPolicies:
         Version: "2012-10-17"
         Statement:
