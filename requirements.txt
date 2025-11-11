@@ -3,7 +3,5 @@ langchain
 langchain-core
 boto3
 opensearch-py
-PyMuPDF
 sentence-transformers
-torch
 pydantic
