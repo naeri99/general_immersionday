@@ -1,3 +1,8 @@
-pip install -r requirements.txt
+1. cd /home/ec2-user/SageMaker/
+   
+2. sudo yum update gcc-c++
 
-/home/ec2-user/SageMaker/i
+3. pip install -r requirements.txt
+
+
+
