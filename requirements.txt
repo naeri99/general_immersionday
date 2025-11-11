@@ -3,5 +3,8 @@ langchain
 langchain-core
 boto3
 opensearch-py
-sentence-transformers
 pydantic
+fitz
+sentence-transformers
+frontend
+pypdf
